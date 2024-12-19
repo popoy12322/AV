@@ -1,0 +1,171 @@
+getgenv().Config = {
+    ["Misc"] = {
+        ["AntiAFKChamber"] = true,
+        ["AutoExecute"] = true,
+        ["AutoReconnect"] = true,
+        ["HideOnOpen"] = true,
+        ["PlaceAnywhere"] = false
+    },
+    ["AutoClaimBattlepass"] = true,
+    ["AutoTP"] = {
+        ["Enabled"] = false,
+        ["Time"] = 10,
+        ["NewChallenge"] = false
+    },
+    ["AutoCardDungeon"] = {
+        ["BuffWave"] = 1,
+        ["AdditiveSelection"] = {},
+        ["ModifierCap"] = {},
+        ["BuffWaveEnabled"] = false,
+        ["StarterSelection"] = {}
+    },
+    ["Talisman"] = {
+        ["AutoUse"] = false,
+        ["AutoCollect"] = true
+    },
+    ["AutoClaimQuest"] = true,
+    ["AutoClaimCollection"] = true,
+    ["Auto"] = {
+        ["Skip"] = true,
+        ["Next"] = false,
+        ["Replay"] = true,
+        ["Speed"] = false,
+        ["Leave"] = false
+    },
+    ["Webhook"] = {
+        ["Ping"] = false,
+        ["SecretPing"] = false,
+        ["ID"] = 0,
+        ["Url"] = "",
+        ["Result"] = false
+    },
+    ["Macro"] = {
+        ["StepDelay"] = 0,
+        ["Default"] = "",
+        ["RecordOptions"] = {
+            ["Time"] = true,
+            ["Wave"] = true
+        },
+        ["Selected"] = {
+            ["Paragon"] = {
+                ["Planet Namak"] = "",
+                ["Shibuya Station"] = "",
+                ["Double Dungeon"] = "",
+                ["Sand Village"] = ""
+            },
+            ["Challenge"] = {
+                ["Planet Namak"] = "",
+                ["Double Dungeon"] = "haha3",
+                ["Sand Village"] = ""
+            },
+            ["Infinite"] = {
+                ["Planet Namak"] = "",
+                ["Shibuya Station"] = "infi shibu",
+                ["Double Dungeon"] = "",
+                ["Sand Village"] = ""
+            },
+            ["Dungeon"] = {
+                ["Mountain Shrine (Natural)"] = ""
+            },
+            ["Story"] = {
+                ["Planet Namak"] = "",
+                ["Shibuya Station"] = "",
+                ["Double Dungeon"] = "",
+                ["Sand Village"] = ""
+            },
+            ["Raid"] = {
+                ["Spider Forest"] = "raid",
+                ["Tracks at the Edge of the World"] = ""
+            },
+            ["LegendStage"] = {
+                ["Shibuya Aftermath"] = "",
+                ["Double Dungeon"] = "act 2 sand",
+                ["Sand Village"] = "act 1 sand"
+            },
+            ["BossEvent"] = {}
+        },
+        ["Enabled"] = true
+    },
+    ["AutoChallenge"] = {
+        ["IgnoreModifiers"] = {},
+        ["Enabled"] = false,
+        ["IgnoreChallenge"] = {}
+    },
+    ["SteelBall"] = {
+        ["AutoUse"] = false,
+        ["AutoCollect"] = true,
+        ["StartTime"] = 3,
+        ["UseInterval"] = 15
+    },
+    ["AutoCard"] = {
+        ["Max"] = {
+            ["Strong"] = 5,
+            ["Thrice"] = 5,
+            ["Regen"] = 5,
+            ["Fast"] = 5,
+            ["Revitalize"] = 5,
+            ["Drowsy"] = 5,
+            ["Exploding"] = 5,
+            ["Dodge"] = 5,
+            ["Shielded"] = 5,
+            ["Immunity"] = 5,
+            ["Quake"] = 5,
+            ["Champions"] = 5
+        },
+        ["Selection"] = {
+            ["Revitalize"] = true,
+            ["Shielded"] = true,
+            ["Regen"] = true
+        },
+        ["Enabled"] = false
+    },
+    ["AutoWave"] = {
+        ["Leave"] = false,
+        ["SellUnits"] = false,
+        ["SellFarms"] = false,
+        ["Upgrade"] = false,
+        ["SellFarmsOnWave"] = 1,
+        ["SellUnitsOnWave"] = 31,
+        ["LeaveOnWave"] = 32,
+        ["UpgradeOnWave"] = 1
+    },
+    ["AutoStartDelay"] = 0,
+    ["AutoJoin"] = {
+        ["Difficulty"] = "Normal",
+        ["Map"] = "Shibuya Station",
+        ["Act"] = "Infinite",
+        ["Enabled"] = true,
+        ["Mode"] = "Infinite",
+        ["FriendsOnly"] = true,
+        ["Walk"] = false
+    },
+    ["AutoStart"] = true,
+    ["UI"] = {
+        ["ShowUserInfo"] = false,
+        ["Notification"] = true,
+        ["Scale"] = 0.75
+    },
+    ["AutoParagon"] = {
+        ["Map"] = "Planet Namak",
+        ["Enabled"] = false,
+        ["Selected"] = 0,
+        ["Difficulty"] = "Normal",
+        ["Mode"] = "Highest Paragon"
+    },
+    ["AutoAbility"] = {
+        ["Enabled"] = true,
+        ["Wave"] = 0,
+        ["Mode"] = "On Wave",
+        ["BossTime"] = 0,
+        ["SelectedUnits"] = {
+            ["Song Jinwu (Monarch)"] = true
+        }
+    },
+    ["Crafting"] = {
+        ["Enabled"] = false,
+        ["MaxSelection"] = {},
+        ["Selected"] = {},
+        ["TPLobbyWhenMax"] = false,
+        ["BeforeGame"] = false
+    }
+}
