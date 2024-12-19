@@ -29,8 +29,8 @@ getgenv().Config = {
         ["Skip"] = true,
         ["Next"] = false,
         ["Replay"] = true,
-        ["Speed"] = false,
-        ["Leave"] = false
+        ["Leave"] = false,
+        ["Speed"] = false
     },
     ["Webhook"] = {
         ["Ping"] = false,
@@ -41,37 +41,38 @@ getgenv().Config = {
     },
     ["Macro"] = {
         ["StepDelay"] = 0,
-        ["Default"] = "",
+        ["Default"] = "infi macro",
         ["RecordOptions"] = {
             ["Time"] = true,
             ["Wave"] = true
         },
+        ["Enabled"] = true,
         ["Selected"] = {
             ["Paragon"] = {
-                ["Planet Namak"] = "",
+                ["Sand Village"] = "",
                 ["Shibuya Station"] = "",
                 ["Double Dungeon"] = "",
-                ["Sand Village"] = ""
+                ["Planet Namak"] = ""
             },
             ["Challenge"] = {
-                ["Planet Namak"] = "",
+                ["Sand Village"] = "",
                 ["Double Dungeon"] = "haha3",
-                ["Sand Village"] = ""
+                ["Planet Namak"] = ""
             },
             ["Infinite"] = {
-                ["Planet Namak"] = "",
-                ["Shibuya Station"] = "infi shibu",
+                ["Sand Village"] = "",
+                ["Shibuya Station"] = "infi macro",
                 ["Double Dungeon"] = "",
-                ["Sand Village"] = ""
+                ["Planet Namak"] = ""
             },
             ["Dungeon"] = {
                 ["Mountain Shrine (Natural)"] = ""
             },
             ["Story"] = {
-                ["Planet Namak"] = "",
+                ["Sand Village"] = "",
                 ["Shibuya Station"] = "",
                 ["Double Dungeon"] = "",
-                ["Sand Village"] = ""
+                ["Planet Namak"] = ""
             },
             ["Raid"] = {
                 ["Spider Forest"] = "raid",
@@ -83,8 +84,7 @@ getgenv().Config = {
                 ["Sand Village"] = "act 1 sand"
             },
             ["BossEvent"] = {}
-        },
-        ["Enabled"] = true
+        }
     },
     ["AutoChallenge"] = {
         ["IgnoreModifiers"] = {},
@@ -94,8 +94,8 @@ getgenv().Config = {
     ["SteelBall"] = {
         ["AutoUse"] = false,
         ["AutoCollect"] = true,
-        ["StartTime"] = 3,
-        ["UseInterval"] = 15
+        ["UseInterval"] = 15,
+        ["StartTime"] = 3
     },
     ["AutoCard"] = {
         ["Max"] = {
@@ -104,13 +104,13 @@ getgenv().Config = {
             ["Regen"] = 5,
             ["Fast"] = 5,
             ["Revitalize"] = 5,
-            ["Drowsy"] = 5,
+            ["Champions"] = 5,
             ["Exploding"] = 5,
             ["Dodge"] = 5,
-            ["Shielded"] = 5,
-            ["Immunity"] = 5,
             ["Quake"] = 5,
-            ["Champions"] = 5
+            ["Immunity"] = 5,
+            ["Shielded"] = 5,
+            ["Drowsy"] = 5
         },
         ["Selection"] = {
             ["Revitalize"] = true,
@@ -122,11 +122,11 @@ getgenv().Config = {
     ["AutoWave"] = {
         ["Leave"] = false,
         ["SellUnits"] = false,
-        ["SellFarms"] = false,
+        ["SellUnitsOnWave"] = 21,
         ["Upgrade"] = false,
-        ["SellFarmsOnWave"] = 1,
-        ["SellUnitsOnWave"] = 31,
         ["LeaveOnWave"] = 32,
+        ["SellFarms"] = false,
+        ["SellFarmsOnWave"] = 1,
         ["UpgradeOnWave"] = 1
     },
     ["AutoStartDelay"] = 0,
@@ -147,25 +147,25 @@ getgenv().Config = {
     },
     ["AutoParagon"] = {
         ["Map"] = "Planet Namak",
-        ["Enabled"] = false,
         ["Selected"] = 0,
+        ["Mode"] = "Highest Paragon",
         ["Difficulty"] = "Normal",
-        ["Mode"] = "Highest Paragon"
+        ["Enabled"] = false
     },
     ["AutoAbility"] = {
         ["Enabled"] = true,
         ["Wave"] = 0,
         ["Mode"] = "On Wave",
-        ["BossTime"] = 0,
         ["SelectedUnits"] = {
             ["Song Jinwu (Monarch)"] = true
-        }
+        },
+        ["BossTime"] = 0
     },
     ["Crafting"] = {
         ["Enabled"] = false,
-        ["MaxSelection"] = {},
+        ["BeforeGame"] = false,
         ["Selected"] = {},
         ["TPLobbyWhenMax"] = false,
-        ["BeforeGame"] = false
+        ["MaxSelection"] = {}
     }
 }
